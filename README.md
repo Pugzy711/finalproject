@@ -15,6 +15,8 @@
 
 - column names were cleaned up to exclude all punctuation (e.g.-.,()) using gsub and substituting the punctuation with "". Then the resulting values were changed to all lowercase in a variable called features.
 
+- Other gsub functions were used to remove double words in the name or to expand abreviations e.g. std to standarddeviation, Freq to frequency
+
 - the features variable was used for column names when creating the train and test df in col.names = features
 
 - The reason this step was taken early, was that it makes it easier to search for mean and std variables when all of them as cleaned up i.e. no punctuation or dashes and are all lowercase
