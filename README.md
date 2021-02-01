@@ -5,7 +5,7 @@
 
 ## General description of run_analysis.R
 - The script performs the below steps then writes a "tidydata.txt" file using the tidy data set that was created which, is a summary table of the mean of each variable for the activity and subject variables
-- to read and view the file use x <- read.table("tidydata.txt", header = TRUE) then View(X)
+- to read and view the file use x <- read.table("tidydata.txt", header = TRUE) then View(x)
 
 ## Appropriately labeling the data set with descriptive variable names
 
