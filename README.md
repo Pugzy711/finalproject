@@ -35,7 +35,7 @@
 
 ## Extracting only the measurements on the mean and standard deviation for each measuremen
 
-- the column **names**  i.e. names(data), were filtered using  grep and the regular expression "mean|std|activity|subject" which included the activity and subject columns and translates to mean or std or ... 
+- the column **names**  i.e. names(data), were filtered using  grep and the regular expression "mean|standarddeviation|activity|subject" which included the activity and subject columns and translates to mean or std or ... 
 - the columns were filtered using the select function and the filtered names variables was used as an argument in that function.
 
 ## Changing the activity Column 
