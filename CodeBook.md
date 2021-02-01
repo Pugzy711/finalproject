@@ -35,7 +35,7 @@
 
 - mixcasefeatures: column names without .-()
 
-- features: column names in all lowercase
+- features: column names in all lowercase and cleaned up i.e. abbreviations were expanded and double entries were edited
 
 ### training set variables 
 
